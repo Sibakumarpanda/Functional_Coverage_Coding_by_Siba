@@ -70,21 +70,30 @@
        Values 0, 1, 2
        Range 100 to 200
        All other values (auto bins)
-# Q62.
-# Q63.
-# Q64.
-# Q65.
-# Q66.
-# Q67.
-# Q68.
-# Q69.
-# Q70.
-# Q71.
-# Q72.
-# Q73.
-# Q74.
-# Q75.
-# Q76.
+# Q62. Write a covergroup to sample a 3-bit opcode with:
+       Individual bins for opcodes 0, 1, 2
+       Illegal bin for opcode 7
+# Q63. Implement a covergroup that samples only when enable is high.
+# Q64. Write a covergroup to cross two signals:
+       cmd (READ, WRITE)
+       addr (LOW: 0x0-0xFF, HIGH: 0x100-0x1FF)
+# Q65. How to reduce cross coverage bins between two 4-bit signals? (Use ignore_bins or binsof)
+# Q66. Write a coverpoint to check transitions:
+       0 → 1 → 2
+       1 → 3 → 5
+# Q67. How to cover a scenario where signalA is high, and within 3 cycles, signalB is high? Use a sequence and sample it in coverage.
+# Q68. Cover a 32-bit address space with:
+       First 1KB (0x0000-0x03FF)
+       Last 1KB (0xFC00-0xFFFF)
+       All other addresses as a single bin
+# Q69. How to cover only even values of a 16-bit counter?
+# Q70. Write a covergroup where bins are dynamically enabled based on a configuration register.
+# Q71. How to implement "coverage per test" (merge coverage only for specific tests)?
+# Q72. Cover only the cases where cmd == READ and status == OK.
+# Q73. How to exclude addr == 0xDEADBEEF from all crosses?
+# Q74. Write a covergroup to measure how many times a FIFO goes from empty to full in a single test.
+# Q75. Cover all possible burst lengths (1, 2, 4, 8) and burst types (INCR, WRAP) in an AXI transaction.
+# Q76. Implement coverage for a state machine with 3 states (IDLE, ACTIVE, ERROR) and all transitions.
 # Q77.
 # Q78.
 # Q79.
