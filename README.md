@@ -66,7 +66,10 @@
 # Q58. Scenario: A FIFO has full, empty, and almost_full conditions. How would you cover all possible state transitions?
 # Q59. Scenario: A register field can be READ-ONLY, WRITE-ONLY, or READ-WRITE. How would you ensure all access modes are covered?
 # Q60. Scenario: A state machine has 5 states. How would you ensure all transitions are covered?
-# Q61.
+# Q61. Write a covergroup to cover an 8-bit data bus with bins for:
+       Values 0, 1, 2
+       Range 100 to 200
+       All other values (auto bins)
 # Q62.
 # Q63.
 # Q64.
