@@ -37,37 +37,63 @@
 # Q29. How would you parameterize a covergroup to handle different signal widths? Provide an example.
 # Q30. Write a covergroup to track the occurrence of specific events, such as a signal going high.
 # Q31. How would you implement conditional coverage to only track values when a valid signal is high ?
-# Q32.
-# Q33.
-# Q34.
-# Q35.
-# Q36.
-# Q37.
-# Q38.
-# Q39.
-# Q40.
-# Q41.
-# Q42.
-# Q43.
-# Q44.
-# Q45.
-# Q46.
-# Q47.
-# Q48.
-# Q49.
-# Q50.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Q32. Explain the key components of functional coverage (covergroups, coverpoints, bins, crosses).
+# Q33. What is the difference between auto bins and user-defined bins?
+# Q34. What happens if no bins are explicitly defined for a coverpoint?
+# Q35. How do you ignore or exclude certain values from coverage?
+# Q36. What is an illegal_bin, and how is it used?
+# Q37. How do you handle transitions in functional coverage (e.g., 0 -> 1 -> 2)?
+# Q38. What is the impact of crossing two 8-bit variables without bin reduction?
+# Q39. How can you exclude certain cross combinations?
+# Q40. How do you trigger coverage sampling (e.g., using sample() method)?
+# Q41. What are the different weight, goal, and at_least options in coverage?
+# Q42. How do you merge coverage from multiple test runs?
+# Q43. What is the difference between per_instance and per_type coverage?
+# Q44. How do you analyze coverage holes?
+# Q45. How would you cover a scenario where a signal should never take a specific value?
+# Q46. How do you define bins for a multi-bit signal where only certain bit patterns are interesting?
+# Q47. How would you cover a scenario where a 32-bit address should cover ranges (e.g., 0x0000-0x0FFF, 0x1000-0x1FFF)?
+# Q48. How do you handle coverage for a signal that can take millions of possible values (e.g., a 64-bit counter)?
+# Q49. What happens if you cross two coverpoints, one with 4 bins and another with 5 bins? How many bins are created?
+# Q50. How can you avoid exponential bin explosion in cross coverage?
+# Q51. How would you cover all possible 2-bit transitions (e.g., 00→01→10→11)?
+# Q52. How do you enable/disable coverage sampling based on a condition?
+# Q53. How can you dynamically modify bins during simulation?
+# Q54. How would you implement temporal coverage (e.g., Signal A high → within 5 cycles → Signal B high)?
+# Q55. If coverage is not reaching 100%, how would you debug the issue?
+# Q56. How can you prioritize coverage holes to focus on the most critical ones?
+# Q57. What is covergroup strobe sampling, and when would you use it?
+# Q58. Scenario: A FIFO has full, empty, and almost_full conditions. How would you cover all possible state transitions?
+# Q59. Scenario: A register field can be READ-ONLY, WRITE-ONLY, or READ-WRITE. How would you ensure all access modes are covered?
+# Q60. Scenario: A state machine has 5 states. How would you ensure all transitions are covered?
+# Q61.
+# Q62.
+# Q63.
+# Q64.
+# Q65.
+# Q66.
+# Q67.
+# Q68.
+# Q69.
+# Q70.
+# Q71.
+# Q72.
+# Q73.
+# Q74.
+# Q75.
+# Q76.
+# Q77.
+# Q78.
+# Q79.
+# Q80.
+# Q81.
+# Q82.
+# Q83.
+# Q84.
+# Q85.
+# Q86.
+# Q87.
+# Q88.
+# Q89.
+# Q90.
 
