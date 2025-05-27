@@ -94,18 +94,68 @@
 # Q74. Write a covergroup to measure how many times a FIFO goes from empty to full in a single test.
 # Q75. Cover all possible burst lengths (1, 2, 4, 8) and burst types (INCR, WRAP) in an AXI transaction.
 # Q76. Implement coverage for a state machine with 3 states (IDLE, ACTIVE, ERROR) and all transitions.
-# Q77.
-# Q78.
-# Q79.
-# Q80.
-# Q81.
-# Q82.
-# Q83.
-# Q84.
-# Q85.
-# Q86.
-# Q87.
-# Q88.
-# Q89.
-# Q90.
-
+# Q77. Write a SystemVerilog covergroup to monitor APB read and write transactions, including:
+       PWRITE (direction)
+       PADDR range (split into 4 equal bins)
+       PWDATA and PRDATA values (8-bit, with all-ones and all-zeros bins)
+# Q78. Write a covergroup to track APB state transitions (IDLE → SETUP → ACCESS → IDLE)
+# Q79. Write a covergroup to track how many cycles PREADY takes to respond (0-cycle, 1-cycle, 2-5 cycles, >5 cycles) in APB.
+# Q80. Write a covergroup to ensure PSLVERR is tested under different conditions in APB:
+       During reads vs. writes
+       With different PADDR ranges
+       After different PREADY delays
+# Q81. How would you write a covergroup to detect if multiple PSELx signals are accidentally asserted at the same time in APB?
+# Q82. How would you modify the covergroup to ensure APB transactions are verified during power transitions (e.g., clock gating, reset)?
+# Q83. Write a covergroup to track back-to-back APB transactions (no idle cycle between them)
+# Q84. Write a covergroup to ensure that after a PSLVERR, the next transaction is successful (PREADY with no error) in APB.
+# Q85. How would you write a covergroup to track unaligned 32-bit APB accesses (where PADDR[1:0] != 2'b00)?
+# Q86. Write a covergroup to track how many cycles PREADY stays low (stall duration).
+# Q87. Write a covergroup to check if the APB bus resumes transactions correctly after reset.
+# Q88. Write a covergroup to ensure that a read after write to the same address returns the previously written data.
+# Q89. How would you write a covergroup to track APB transactions triggered by peripheral interrupts (assume an interrupt signal IRQ)?
+# Q90. Write a covergroup to categorize APB transfers into:
+       Single read
+       Single write
+       Back-to-back read after write
+       Back-to-back write after read
+# Q91. Cover cases where PADDR falls into unmapped regions (address holes). Assume valid range is 0x0000–0x0FFF.
+# Q92. Cover PSTRB usage in APB4 for partial writes (e.g., byte-wise writes).
+# Q93. Cover illegal transitions (e.g., PENABLE without PSEL, or PREADY before PENABLE) in APB
+# Q94. Cover the first transaction after reset de-assertion in APB.
+# Q95. Cover all combinations of PREADY and PSLVERR responses in APB.
+# Q96. Cover scenarios where multiple slaves are accessed in rapid succession in APB.
+# Q97. Cover cases where PRDATA changes while PREADY is low in APB
+# Q98. Cover APB transactions that occur during clock gating scenarios
+# Q99. Cover the  APB initialization sequence where a peripheral is configured after reset.
+# Q100.
+# Q101.
+# Q102.
+# Q103.
+# Q104.
+# Q105.
+# Q106.
+# Q107.
+# Q108.
+# Q109.
+# Q110.
+# Q111.
+# Q112.
+# Q113.
+# Q114.
+# Q115.
+# Q116.
+# Q117.
+# Q118.
+# Q119.
+# Q120.
+# Q121.
+# Q122.
+# Q123.
+# Q124.
+# Q125.
+# Q126.
+# Q127.
+# Q128.
+# Q129.
+# Q130.
+# Q123.
