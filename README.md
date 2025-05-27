@@ -168,13 +168,46 @@
 # Q138. Write FC code to Cover maximum throughput scenarios (every cycle write-read,FIFO High-Frequency Write-Read)
 # Q139. Write FC code to Cover interrupted write/read sequences (FIFO Partial Write-Read Sequences).
 # Q140. Write FC code to Cover reset while FIFO is full (stress case,FIFO Reset During Full Operation).
-# Q141.
-# Q142
-# Q143.
-# Q144.
-# Q145.
-# Q146.
-# Q147.
-# Q148.
-# Q149.
-# Q150.
+# Q141. Write FC code to Cover basic write (wr_clk domain) and read (rd_clk domain) operations in Asynch FIFO (Basic Async FIFO Operations).
+# Q142  Write FC code to Cover transitions of empty/full flags synchronized across domains (FIFO Empty/Full Flags (CDC-Safe) Cover) in Asynch FIFO.
+# Q143. Write FC code to Cover FIFO fill levels (empty, half-full, full) using Gray-coded pointers (FIFO Fill Levels (Gray Code Conversion)) in Asynch FIFO.
+# Q144. Write FC code to Verify all valid single-bit Gray code transitions for write/read pointers (Gray Code Pointer Transitions (CDC Critical!)) in Asynch FIFO.
+# Q145. Write FC code to Cover cases where synchronized pointers recover from metastability (Metastability Recovery Coverage) in Asynch FIFO.
+# Q146. Write FC code to Cover different clock frequency ratios (e.g., wr_clk 2x faster than rd_clk) (Write-Read Clock Frequency Ratios) in Asynch FIFO.
+# Q147. Write FC code to Cover illegal writes when full (wr_clk domain) and reads when empty (rd_clk domain). (FIFO Overflow/Underflow (CDC-Safe)) in Asynch FIFO.
+# Q148. Write FC code to Cover synchronization delay for pointers crossing clock domains (Pointer Synchronization Latency) in Asynch FIFO.
+# Q149. Write FC code to Cover burst writes followed by burst reads with different clock ratios (Back-to-Burst Write-Read) in Asynch FIFO.
+# Q150. Write FC code to Cover reset deassertion in both clock domains .( FIFO Reset Recovery (Dual-Clock)) in Asynch FIFO.
+# Q151. Write FC code to Cover full-to-empty-to-full transitions across clock domains (Full→Empty→Full Transition (CDC)) in Asynch FIFO.
+# Q152. Write FC code to Cover pointer drift when one clock is much faster than the other (Pointer Drift Under Extreme Clock Skew) in Asynch FIFO.
+# Q153. Write FC code to Verify data correctness after crossing clock domains (Data Integrity After CDC) in Asynch FIFO.
+# Q154.
+# Q155.
+# Q156.
+# Q157.
+# Q158.
+# Q159.
+# Q160.
+# Q161.
+# Q162.
+# Q163.
+# Q164.
+# Q165.
+# Q166.
+# Q167.
+# Q168.
+# Q169.
+# Q170.
+# Q171.
+# Q172.
+# Q173.
+# Q174.
+# Q175.
+# Q176.
+# Q177.
+# Q178.
+# Q179.
+# Q180.
+# Q181.
+
+
