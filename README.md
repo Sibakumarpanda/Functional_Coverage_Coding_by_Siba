@@ -158,16 +158,16 @@
 # Q128. Write FC code to Cover write/read pointer wrap-around cases (Synch FIFO Pointer Wrap-Around).
 # Q129. Write FC code to Cover programmable almost-full/almost-empty thresholds (FIFO Threshold Triggers).
 # Q130. Write FC code to Cover read-after-reset to ensure no stale data (FIFO Power-On Reset Data).
-# Q131. Write FC code to Cover full→empty→full stress sequence.
-# Q132. Write FC code to Cover reset during active read/write operations.
-# Q133.
-# Q134.
-# Q135.
-# Q136.
-# Q137.
-# Q138.
-# Q139.
-# Q140.
+# Q131. Write FC code to Cover full→empty→full stress sequence in Synch FIFO.
+# Q132. Write FC code to Cover reset during active read/write operations in Synch FIFO.
+# Q133. Write FC code to Cover cases where write and read occur simultaneously at empty/full boundaries (FIFO Simultaneous Push-Pop at Boundaries).
+# Q134. Write FC code to Verify data integrity after consecutive writes followed by reads (FIFO Data Retention After Multiple Writes).
+# Q135. Write FC code to Cover cases where write and read pointers collide (not just full/empty, FIFO Pointer Collision ).
+# Q136. Write FC code to Cover transitions of almost-full/almost-empty flags (FIFO Almost-Full/Almost-Empty Toggle).
+# Q137. Write FC code to Cover complete fill-then-drain sequences (FIFO Sequential Fill-Drain Patterns).
+# Q138. Write FC code to Cover maximum throughput scenarios (every cycle write-read,FIFO High-Frequency Write-Read)
+# Q139. Write FC code to Cover interrupted write/read sequences (FIFO Partial Write-Read Sequences).
+# Q140. Write FC code to Cover reset while FIFO is full (stress case,FIFO Reset During Full Operation).
 # Q141.
 # Q142
 # Q143.
