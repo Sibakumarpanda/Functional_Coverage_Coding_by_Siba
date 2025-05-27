@@ -148,18 +148,18 @@
 # Q118. Write FC code to Cover deliberate error injection cases (AXI Error Injection Coverage).
 # Q119. Write FC code to Cover transactions crossing 4KB boundaries (AXI Byte Lane Crossing).
 # Q120. Write FC code to Cover CDC scenarios for multi-clock AXI (AXI Clock Domain Crossing).
-# Q121.
-# Q122.
-# Q123.
-# Q124.
-# Q125.
-# Q126.
-# Q127.
-# Q128.
-# Q129.
-# Q130.
-# Q131.
-# Q132.
+# Q121. Write FC code to Cover basic FIFO operations (Synch FIFO write, read, simultaneous write-read).
+# Q122. Write FC code to Cover Synch FIFO fill states (empty, half-full, full)
+# Q123. Write FC code to Cover transitions between full and empty states in Synch FIFO.
+# Q124. Write FC code to Cover illegal overflow (write when full) and underflow (read when empty) in Synch FIFO.
+# Q125. Write FC code to Verify data correctness after write-read sequences in Synch FIFO.
+# Q126. Write FC code to Cover Synch FIFO behavior post-reset (first write after reset).
+# Q127. Write FC code to Cover back-to-back write-read patterns ( Synch FIFO Concurrent Read/Write Stress)
+# Q128. Write FC code to Cover write/read pointer wrap-around cases (Synch FIFO Pointer Wrap-Around).
+# Q129. Write FC code to Cover programmable almost-full/almost-empty thresholds (FIFO Threshold Triggers).
+# Q130. Write FC code to Cover read-after-reset to ensure no stale data (FIFO Power-On Reset Data).
+# Q131. Write FC code to Cover full→empty→full stress sequence.
+# Q132. Write FC code to Cover reset during active read/write operations.
 # Q133.
 # Q134.
 # Q135.
