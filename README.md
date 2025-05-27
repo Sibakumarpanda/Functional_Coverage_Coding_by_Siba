@@ -127,27 +127,27 @@
 # Q97. Cover cases where PRDATA changes while PREADY is low in APB
 # Q98. Cover APB transactions that occur during clock gating scenarios
 # Q99. Cover the  APB initialization sequence where a peripheral is configured after reset.
-# Q100.
-# Q101.
-# Q102.
-# Q103.
-# Q104.
-# Q105.
-# Q106.
-# Q107.
-# Q108.
-# Q109.
-# Q110.
-# Q111.
-# Q112.
-# Q113.
-# Q114.
-# Q115.
-# Q116.
-# Q117.
-# Q118.
-# Q119.
-# Q120.
+# Q100. Write a covergroup to track AXI read and write bursts (INCR, WRAP, FIXED) and their lengths (1, 2, 4, 8, 16 beats).
+# Q101. Cover the number of outstanding transactions (0-8) on a channel (e.g., read or write) in AXI.
+# Q102. Cover interleaved write data (WID changes mid-burst) in AXI.
+# Q103. Cover all AXI response types (OKAY, EXOKAY, SLVERR, DECERR) in AXI.
+# Q104. Cover atomic operations (e.g., exclusive accesses, SWAP, CAS) in AXI.
+# Q105. Cover cases where read data returns out-of-order (BID/RID ≠ FIFO order) in AXI.
+# Q106. Cover partial writes using WSTRB (e.g., byte-wise, half-word) in AXI.
+# Q107. Cover transactions during clock gating or power state changes in AXI.
+# Q108. Cover bufferable (AxCACHE) vs. non-bufferable transactions in AXI.
+# Q109. Cover unaligned burst starts (e.g., 4-byte burst starting at 0x3) in AXI.
+# Q110. Write FC Code to Track maximum outstanding transactions per ID in AXI.
+# Q111. Cover interleaving depth (number of concurrent WID values) in AXI.
+# Q112. Write FC code to Cover exclusive access success vs. failure cases in AXI.
+# Q113. Write FC code to Cover different WDATA arrival patterns relative to AW in AXI.
+# Q114. Write FC code to Cover cacheable vs. non-cacheable transactions(AXI Cache Coherency Scenarios).
+# Q115. Write FC code to Cover OOO completion by RID/BID (AXI Out-of-Order Completion Patterns).
+# Q116. Write FC code to Cover transactions during power state changes.
+# Q117. Write FC code to Cover partial strobes with all-0/all-1 data (AXI Write Strobe Edge Cases)
+# Q118. Write FC code to Cover deliberate error injection cases (AXI Error Injection Coverage).
+# Q119. Write FC code to Cover transactions crossing 4KB boundaries (AXI Byte Lane Crossing).
+# Q120. Write FC code to Cover CDC scenarios for multi-clock AXI (AXI Clock Domain Crossing).
 # Q121.
 # Q122.
 # Q123.
@@ -158,4 +158,23 @@
 # Q128.
 # Q129.
 # Q130.
-# Q123.
+# Q131.
+# Q132.
+# Q133.
+# Q134.
+# Q135.
+# Q136.
+# Q137.
+# Q138.
+# Q139.
+# Q140.
+# Q141.
+# Q142
+# Q143.
+# Q144.
+# Q145.
+# Q146.
+# Q147.
+# Q148.
+# Q149.
+# Q150.
