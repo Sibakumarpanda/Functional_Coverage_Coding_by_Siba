@@ -212,24 +212,59 @@
 # Q182. Write functional coverage code to include entry/exit conditions for Electrical Idle (EI) in PCIe physical layer.
 # Q183. Write FC code to check Receiver Detection (Rx Detect) properly verified when exiting Electrical Idle in PCIe.
 # Q184. Write FC code to check L0, L0s, L1, L2, L3 power states exercised with correct transitions in PCIe.
-# Q185.
-# Q186.
-# Q187.
-# Q188.
-# Q189.
-# Q190.
-# Q191.
-# Q192.
-# Q193.
-# Q194.
-# Q195.
-# Q196.
-# Q197.
-# Q198.
-# Q199.
-# Q200.
+# Q185. Write FC code to check LTSSM State Transitions in PCIe.
+# Q186. Write FC code to include Recvery due to errors (e.g. SKP OS mismatch, 8b/10b disparity) in PCIe?
+# Q187. Write FC code to check Link Width Configuration & Lane Negotiation in PCIe.
+# Q188. Write FC code to check coverage for lane reversal and polarity inversion cases in PCIe.
+# Q189. Write FC code to check Speed Negotiation/Speed Change with Maximum Supported Speed of GEN5 in PCIe.
+# Q190. Write FC code to cover SSC (Spread Spectrum Clocking) impact on speed negotiation in PCIe.
+# Q191. Write FC code to cover Power State Transitions in PCIe.
+# Q192. Write FC code to add coverage for Electrical Idle exit sequences (EIOS handling) in PCIe.
+# Q193. Write FC code to cover Error Handling & Recovery Coverage in PCIe (Error-Induced Recovery, the error may be due to: skp_mismatch,disparity_error,crc_error)
+# Q194. Write FC code to include multiple retries before successful recovery?
+# Q195. Write FC code for EQ Preset and Margining(Voltage/Time) in PCIe.
+# Q196. Write FC code to track successful vs. failed equalization attempts in PCIe.
+# Q197. Write FC code for Reset & Initialization Coverage in PCIe.
+# Q198. Write FC code for Partial vs. Full Link Re-initialization after reset in PCIe.
+# Q199. Write FC code Compliance Pattern Testing in Gen5 PCIe.
+# Q200. 
 # Q201.
 # Q202.
 # Q203.
-
-
+# Q204.
+# Q205.
+# Q206.
+# Q207.
+# Q208.
+# Q209.
+# Q210.
+# Q211.
+# Q212.
+# Q213.
+# Q214.
+# Q215.
+# Q216.
+# Q217.
+# Q218.
+# Q219.
+# Q220.
+# Q221.
+# Q222.
+# Q223.
+# Q224.
+# Q225.
+# Q226.
+# Q227.
+# Q228.
+# Q229.
+# Q230.
+# Q231.
+# Q232.
+# Q233.
+# Q234.
+# Q235.
+# Q236.
+# Q237.
+# Q238.
+# Q239.
+# Q240.
