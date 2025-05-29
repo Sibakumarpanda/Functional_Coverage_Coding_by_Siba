@@ -282,13 +282,13 @@
 # Q252. Write FC code to cover  forced width reduction after Hot Reset in PCIe.
 # Q253. Write FC code to cover Consecutive Width Changes scenarios in PCIe. (Multi-Lane Stability Stress Test)
 # Q254. Write FC code to track link stability after 10+ consecutive width changes in PCIe.
-# Q255.
-# Q256.
-# Q257.
-# Q258.
-# Q259.
-# Q260.
-# Q261.
+# Q255. Write FC code to check Simultaneous Speed + Width Change in PCIe (Coordinated Speed and Width Transition).
+# Q256. Write FC code to cover Speed Upgrade with Width Downgrade scenario in PCIe.(Speed↑ + Width↓ Tradeoff)
+# Q257. Write FC code to cover Speed Downgrade with Width Upgrade scenario in PCIe.(Speed↓ + Width↑ Tradeoff)
+# Q258. Write FC code to cover Surprise Removal/Insertion scenario in PCIe . (Hot Plug with Speed+Width Re-negotiation)
+# Q259. Write FC code to cover Rapid/Back-to-back Speed+Width Changes in PCIe . (Consecutive Reconfigs, Stress Testing ) 
+# Q260. Write FC code to measure recovery time between back-to-back changes in PCIe. 
+# Q261. 
 # Q262.
 # Q263.
 # Q264.
