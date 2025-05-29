@@ -268,20 +268,20 @@
 # Q238. Write FC code to cover Basic Link Width Negotiation in PCIe . (X1,X2, X4,X8, X16)
 # Q239. Write FC code to cover lane reversal and polarity inversion during initial negotiation in PCIe.
 # Q240. Write FC code to cover Dynamic Link Width Reduction (e.g., x8 → x4, X16->X8)) in PCIe. (Active Width Downgrade)
-# Q241. Write FC code to track TLP/DLLP retransmissions during width reduction in PCIe.
-# Q242.
-# Q243.
-# Q244.
-# Q245.
-# Q246.
-# Q247.
-# Q248.
-# Q249.
-# Q250.
-# Q251.
-# Q252.
-# Q253.
-# Q254.
+# Q241. Write FC code to track TLP/DLLP retransmissions during link width reduction in PCIe.
+# Q242. Write FC code to cover Link Width Recovery Upsizing and Downsizing in PCIe .(Example : LINK_WIDTH_X4 ->LINK_WIDTH_X8 or LINK_WIDTH_X8 ->LINK_WIDTH_X4 )
+# Q243. Write FC code to cover failed recovery attempts (e.g., x4 → x8 fails due to noise) in PCIe.
+# Q244. Write FC code to cover LTSSM Transitions for Link Width Reconfiguration in PCIe. (LTSSM State During Width Change)
+# Q245. Write FC code to measure time spent in CONFIG_LINKWIDTH state during width changes in PCIe
+# Q246. Write FC code to track Lane Deskew After Width Change in PCIe. (To detect lane-to-lane skew violations after width changes)
+# Q247. Write FC code to track Error Handling During Width Change .(Errors Triggering Width Reduction)
+# Q248. Write FC code to cover multiple lane failures (e.g., 2 lanes drop in x8) in PCIe.
+# Q249. Write FC code to cover Link Width Changes During L1/L0s ltssm state transition in PCIe.
+# Q250. Write FC code to track unexpected width changes during Electrical Idle in PCIe.
+# Q251. Write FC code to cover Hot Reset and Link Width scenario. (Post-Reset Width Re-Negotiation)
+# Q252. Write FC code to cover  forced width reduction after Hot Reset in PCIe.
+# Q253. Write FC code to cover Consecutive Width Changes scenarios in PCIe. (Multi-Lane Stability Stress Test)
+# Q254. Write FC code to track link stability after 10+ consecutive width changes in PCIe.
 # Q255.
 # Q256.
 # Q257.
