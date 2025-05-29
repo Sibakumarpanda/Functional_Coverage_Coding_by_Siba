@@ -239,32 +239,32 @@
 # Q209. Write FC code to check for Lane Drop/Readd Events (Multi-Lane Link Stability) in PCIe.
 # Q210. Write FC code to cover dynamic lane width reduction (e.g., x8 → x4 due to errors) in PCIe.
 # Q211. Write FC code to validate compliance patterns in PCIe Gen4, Gen5 Loopback scenarios.
-# Q212. 
-# Q213.
-# Q214.
-# Q215.
-# Q216.
-# Q217.
-# Q218.
-# Q219.
-# Q220.
-# Q221.
-# Q222.
-# Q223.
-# Q224.
-# Q225.
-# Q226.
-# Q227.
-# Q228.
-# Q229.
-# Q230.
-# Q231.
-# Q232.
-# Q233.
-# Q234.
-# Q235.
-# Q236.
-# Q237.
-# Q238.
+# Q212. Write FC code to check Successful Speed Upgrades in PCIe. (Basic Speed Negotiation :Gen1 → Gen2 → Gen3 → Gen4 → Gen5)
+# Q213. Write FC code to cover down-negotiation (e.g., Gen4 → Gen3) due to signal integrity issues in PCIe.
+# Q214. Write FC code to cover Speed Fallback Due to Errors in PCIe. (Error-Induced Speed Fallback: Mean for example while in Gen3, it will go to its previous speed that is Gen2 )
+# Q215. Write FC code to check Recovery After Speed Change in PCIe (LTSSM State During Speed Change).
+# Q216. Write FC code to check SSC (Spread Spectrum Clocking) Impact on Speed Stability in PCIe.
+# Q217. Write FC code to cover EQ preset changes when switching speeds (e.g., Gen3 → Gen4) in PCIe.
+# Q218. Write FC code to cover Speed Change with Data Transmission (Speed Change During Active Traffic)
+# Q219. Write FC code to track TLP retries due to speed-change-induced packet loss in PCIe.
+# Q220. Write FC code to check Beacon Wakeup to New Speed in PCIe. (Beacon-Triggered Speed Re-Negotiation)
+# Q221. Write FC code to check Speed After Hot Reset in PCIe . (Hot Reset with Speed Change)
+# Q222. Write FC code to verify forced downgrades after Hot Reset due to errors in PCIe.
+# Q223. Write FC code to verify Speed After Link Retraining in PCIe .(Link Up/Down Speed Stability).
+# Q224. Write FC code to track maximum retries before link drops in PCIe.
+# Q225. Write FC code to cover exit from compliance mode to negotiated speed in PCIe.
+# Q226. Write FC code to cover Random Speed Change During Active Link in PCIe (Ad-Hoc Speed Transition).
+# Q227. Write FC code to cover unexpected speed changes during max payload transmission in PCIe.
+# Q228. Write FC code to check LTSSM State Transitions During Speed Change in PCIe (LTSSM Behavior During Random Speed Changes)
+# Q229. Write FC code to track time spent in Recovery for each speed transition in PCIe.
+# Q230. Write FC code to check Speed Change Failures in PCIe.(Error Handling During Random Speed Changes).
+# Q231. Write FC code to check Clock Behavior During Speed Changes in PCIe. (Clock Stability Post-Speed Change)
+# Q232. Write FC code to check Lane-Specific Speed Changes in PCIe.(Multi-Lane Speed Alignment)
+# Q233. Write FC code to cover lane-to-lane speed mismatches during transitions in PCIe.
+# Q234. Write FC code to cover Speed Change Stress Test scenario in PCIe. (Consecutive Speed Changes)
+# Q235. Write FC code to track link stability after 5+ consecutive speed changes in PCIe
+# Q236. Write FC code to track Speed Change with DLLP/TLP Traffic in PCIe. (Packet Loss During Speed Change)
+# Q237. Write FC code to cover Forced Speed in Compliance Mode in PCIe, ensuring compliance mode doesn’t corrupt negotiated speed. (Compliance Mode vs. Negotiated Speed)
+# Q238. 
 # Q239.
 # Q240.
