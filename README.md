@@ -288,12 +288,12 @@
 # Q258. Write FC code to cover Surprise Removal/Insertion scenario in PCIe . (Hot Plug with Speed+Width Re-negotiation)
 # Q259. Write FC code to cover Rapid/Back-to-back Speed+Width Changes in PCIe . (Consecutive Reconfigs, Stress Testing ) 
 # Q260. Write FC code to measure recovery time between back-to-back changes in PCIe. 
-# Q261. 
-# Q262.
-# Q263.
-# Q264.
-# Q265.
-# Q266.
+# Q261. Write FC code to check basic Polarity Inversion Detection during initialization in PCIe.
+# Q262. Write FC code to cover false polarity detection in PCIe (reporting inversion when none exists).
+# Q263. Write FC code to cover Successful Polarity Correction scenario in PCIe .(Polarity Correction Behavior)
+# Q264. Write FC code to cover Polarity Changes During Recovery state in PCIe. (Polarity Inversion During Link Retraining)
+# Q265. Write FC code to cover Cross-Lane Polarity Patterns scenario in PCIe. (Multi-Lane Polarity Combinations)
+# Q266. Write FC code to cover lane reversal + polarity inversion combinations in PCIe.
 # Q267.
 # Q268.
 # Q269.
