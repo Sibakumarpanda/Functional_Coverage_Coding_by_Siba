@@ -294,18 +294,51 @@
 # Q264. Write FC code to cover Polarity Changes During Recovery state in PCIe. (Polarity Inversion During Link Retraining)
 # Q265. Write FC code to cover Cross-Lane Polarity Patterns scenario in PCIe. (Multi-Lane Polarity Combinations)
 # Q266. Write FC code to cover lane reversal + polarity inversion combinations in PCIe.
-# Q267.
-# Q268.
-# Q269.
-# Q270.
-# Q271.
-# Q272.
-# Q273.
-# Q274.
-# Q275.
-# Q276.
-# Q277.
+# Q267. Write a covergroup to track the detection of lane reversal during PCIe link initialization. Include coverage points for both normal and reversed lane configurations.
+# Q268. Implement a covergroup to verify that lane reversal is correctly handled across different link widths (x1, x4, x8, x16).
+# Q269. How would you implement conditional coverage to verify lane reversal only when the link speed is greater than a certain threshold? Provide an example.
+# Q270. Write a covergroup to track the transitions between normal and reversed lane configurations. How would you ensure all transitions are covered?
+# Q271. Implement a covergroup to verify that lane reversal does not impact data integrity. Include coverage points for data checksums or CRCs.
+# Q272. How would you parameterize a covergroup to handle different numbers of lanes in a PCIe design? Provide an example.
+# Q273. How would you implement a covergroup to verify that lane reversal is correctly handled during hot-plug events?
+# Q274. Write a covergroup to ensure that lane reversal is correctly handled across different PCIe generations (Gen1, Gen2, Gen3, Gen4,Gen5).
+# Q275. Write a covergroup to verify lane reversal in designs with multiple PCIe lanes (e.g., x4, x8, x16)?
+# Q276. Implement a covergroup to verify that lane reversal does not impact PCIe error reporting mechanisms. Include coverage points for error types.
+# Q277. 
 # Q278.
 # Q279.
 # Q280.
 # Q281.
+# Q282.
+# Q283.
+# Q284.
+# Q285.
+# Q286.
+# Q287.
+# Q288.
+# Q289.
+# Q290.
+# Q291.
+# Q292.
+# Q293.
+# Q294.
+# Q295.
+# Q296.
+# Q297.
+# Q298.
+# Q299.
+# Q300.
+# Q301.
+# Q302.
+# Q303.
+# Q304.
+# Q305.
+# Q306.
+# Q307.
+# Q308.
+# Q309.
+# Q310.
+# Q311.
+# Q312.
+
+
