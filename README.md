@@ -226,20 +226,20 @@
 # Q196. Write FC code to track successful vs. failed equalization attempts in PCIe.
 # Q197. Write FC code for Reset & Initialization Coverage in PCIe.
 # Q198. Write FC code for Partial vs. Full Link Re-initialization after reset in PCIe.
-# Q199. Write FC code Compliance Pattern Testing in Gen5 PCIe.
-# Q200. 
-# Q201.
-# Q202.
-# Q203.
-# Q204.
-# Q205.
-# Q206.
-# Q207.
-# Q208.
-# Q209.
-# Q210.
-# Q211.
-# Q212.
+# Q199. Write FC code for Compliance Pattern Testing in Gen5 PCIe.
+# Q200. Write FC code for Deskew & Lane-to-Lane Skew Compensation in PCIe.
+# Q201. Write FC code to add coverage for multi-lane deskew sequences (x4, x8, x16) in PCIe.
+# Q202. Write FC code to check L0s/L1 Entry-Exit Timing (Power State Entry/Exit Latency) in PCIe.
+# Q203. Write FC code to check unexpected wakeups (e.g., Beacon signaling) during L1 in PCIe.
+# Q204. Write FC code to check EQ Phase 1/2/3 Success in Gen5 PCIe.
+# Q205. Write FC code to add coverage for fallback to lower-gen speeds if EQ fails , in PCIe.
+# Q206. Write FC code to cover Error Injection Scenarios (INVALID_8B10B,DISPARITY_ERROR,DLLP_CRC_ERR) in PCIe.
+# Q207. Write FC code to cover multiple consecutive errors (e.g., 3 CRC errors in a row) in PCIe.
+# Q208. Write FC code to add coverage for PERST# assertion duration (100ms vs. 1ms) in PCIe.
+# Q209. Write FC code to check for Lane Drop/Readd Events (Multi-Lane Link Stability) in PCIe.
+# Q210. Write FC code to cover dynamic lane width reduction (e.g., x8 → x4 due to errors) in PCIe.
+# Q211. Write FC code to validate compliance patterns in PCIe Gen4, Gen5 Loopback scenarios.
+# Q212. 
 # Q213.
 # Q214.
 # Q215.
