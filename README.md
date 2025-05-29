@@ -265,6 +265,47 @@
 # Q235. Write FC code to track link stability after 5+ consecutive speed changes in PCIe
 # Q236. Write FC code to track Speed Change with DLLP/TLP Traffic in PCIe. (Packet Loss During Speed Change)
 # Q237. Write FC code to cover Forced Speed in Compliance Mode in PCIe, ensuring compliance mode doesn’t corrupt negotiated speed. (Compliance Mode vs. Negotiated Speed)
-# Q238. 
-# Q239.
-# Q240.
+# Q238. Write FC code to cover Basic Link Width Negotiation in PCIe . (X1,X2, X4,X8, X16)
+# Q239. Write FC code to cover lane reversal and polarity inversion during initial negotiation in PCIe.
+# Q240. Write FC code to cover Dynamic Link Width Reduction (e.g., x8 → x4, X16->X8)) in PCIe. (Active Width Downgrade)
+# Q241. Write FC code to track TLP/DLLP retransmissions during width reduction in PCIe.
+# Q242.
+# Q243.
+# Q244.
+# Q245.
+# Q246.
+# Q247.
+# Q248.
+# Q249.
+# Q250.
+# Q251.
+# Q252.
+# Q253.
+# Q254.
+# Q255.
+# Q256.
+# Q257.
+# Q258.
+# Q259.
+# Q260.
+# Q261.
+# Q262.
+# Q263.
+# Q264.
+# Q265.
+# Q266.
+# Q267.
+# Q268.
+# Q269.
+# Q270.
+# Q271.
+# Q272.
+# Q273.
+# Q274.
+# Q275.
+# Q276.
+# Q277.
+# Q278.
+# Q279.
+# Q280.
+# Q281.
