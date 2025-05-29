@@ -209,9 +209,9 @@
 # Q179. Write FC code to Cover unexpected link down events in PCIe. (PCIe Surprise Down (Advanced Error Handling))
 # Q180. Write FC code to Cover link training states (LTSSM: L0, Recovery, Disabled) in PCIe. (PCIe Link Training & Recovery)
 # Q181. Write FC code to Cover transitions between power states in PCIe. (PCIe Power Management (L1/L2/L3))
-# Q182.
-# Q183.
-# Q184.
+# Q182. Write functional coverage code to include entry/exit conditions for Electrical Idle (EI) in PCIe physical layer.
+# Q183. Write FC code to check Receiver Detection (Rx Detect) properly verified when exiting Electrical Idle in PCIe.
+# Q184. Write FC code to check L0, L0s, L1, L2, L3 power states exercised with correct transitions in PCIe.
 # Q185.
 # Q186.
 # Q187.
