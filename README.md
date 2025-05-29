@@ -189,10 +189,10 @@
 # Q159. Write FC code to Cover AtomicOp TLPs (FetchAdd, Swap, CAS) in PCIe. (PCIe Atomic Operations)
 # Q160. Write FC code to Cover completions with mismatched Tag/Requester ID in PCIe. (PCIe Unexpected Completions)
 # Q161. Write FC code to Cover different Max Read Request Sizes (128B, 256B, 512B, 1024B) in PCIe. (PCIe Max Read Request Size (MRRS))
-# Q162. 
+# Q162. Write FC code to Cover TLP with Maximum Payload Size (e.g., 1024 bytes),Misaligned Addresses, Cross 4KB Boundary Splits in PCIe. (Large Payload & Address Alignment) 
 # Q163. Write FC code to Cover illegal TLP formats (e.g., wrong Fmt/Type combinations) in PCIe. (PCIe Malformed TLP Detection)
 # Q164. Write FC code to Cover all valid combinations of TLP Formats (Fmt) and Types in PCIe. (TLP Type & Format Coverage)
-# Q165. 
+# Q165. Write FC code to Cover PCIe error scenarios like Unsupported Requests (UR), Completer Abort (CA), Poisoned TLPs,ECRC Errors etc.
 # Q166. Write FC code to Cover correctable/uncorrectable error triggers in PCIe. (PCIe AER (Advanced Error Reporting))
 # Q167. Write FC code to Cover transactions targeting different functions (FN 0-7) in PCIe. (PCIe Multi-Function Devices)
 # Q168. Write FC code to Cover dynamic BAR resizing operations in PCIe. (PCIe Resizable BAR (rBAR))
