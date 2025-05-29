@@ -304,20 +304,20 @@
 # Q274. Write a covergroup to ensure that lane reversal is correctly handled across different PCIe generations (Gen1, Gen2, Gen3, Gen4,Gen5).
 # Q275. Write a covergroup to verify lane reversal in designs with multiple PCIe lanes (e.g., x4, x8, x16)?
 # Q276. Implement a covergroup to verify that lane reversal does not impact PCIe error reporting mechanisms. Include coverage points for error types.
-# Q277. 
-# Q278.
-# Q279.
-# Q280.
-# Q281.
-# Q282.
-# Q283.
-# Q284.
-# Q285.
-# Q286.
-# Q287.
-# Q288.
-# Q289.
-# Q290.
+# Q277. Write FC code to cover Invalid TLP Header Fields scenario in PCIe. (Malformed TLP Header Errors, May be due to invalid_fmt_type ,length_mismatch ,addr_alignment ,reserved_bits  violation etc)
+# Q278. Write FC code to track ECRC validation failures on malformed TLPs in PCIe.
+# Q279. Write FC code to cover Corrupted DLLP Detection in PCIe. (DLLP Framing Errors, May be crc_err,seq_err, or both)
+# Q280. Write FC code to track stuffed symbol errors in DLLP framing .
+# Q281. Write FC code to cover Invalid SKP OS Handling scenario with respect to differnet speed in PCIe.(SKP Ordered Set Corruption: like missing_skp,invalid_symbol/Bad symbol in SKP OS ,Incorrect SKP count etc)
+# Q282. Write FC code to track clock tolerance compensation failures due to SKP errors.
+# Q283. Write FC code to cover Electrical Idle Entry/Exit Error Scenario in PCIe.
+# Q284. Write FC code to cover Data Link Layer CRC Error scenario in PCIe. (LCRC Validation Failures: Common bad CRC patterns like all_zeros ,all_ones ,common_flip)
+# Q285. Write FC code to cover the ltssm state enters to Recovery state and triggering Framing Errors/ To track multiple recovery attempts for persistent framing errors (Framing Error Recovery).
+# Q286. Write FC code to track error propagation when corruption occurs in the middle of a TLP data payload.
+# Q287. Write FC code to cover Partial Packet Corruption scenario resulting Framing Errors (The Error location in packet may be at header or Payload or ECRC etc)
+# Q288. Write FC code to cover 128b/130b encoding errors during Gen3→Gen4 transitions in PCIe.
+# Q289. Write FC code to cover running disparity errors in 8b/10b encoding in PCIe.
+# Q290. 
 # Q291.
 # Q292.
 # Q293.
