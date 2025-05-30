@@ -358,12 +358,12 @@
 # Q328. Write FC code to track unacknowledged DLLPs during Hot Reset in PCIe.
 # Q329. Write FC code to cover Hot Reset During Low-Power State like L1, L0 etc
 # Q330. Write FC code to cover Consecutive Hot Reset Operations in PCIe . {Hot Reset Stress Testing: Scenario be like , Gen1-> Gen3->Gen4->Gen5 (Link up done & achieved Max Supported speed, Then Speed Change to GEN2 , Then apply Hot Reset . Then again Speed Change to GEN2 , Then apply Hot Reset, Iterate it for 100 times )}
-# Q331.
-# Q332.
-# Q333.
-# Q334.
-# Q335.
-# Q336.
+# Q331. Write a covergroup to track transitions into and out of the Link Disable state. Ensure that all possible transitions are covered.
+# Q332. Implement a covergroup to verify that the LTSSM correctly handles entry into the Link Disable state during error conditions.
+# Q333. How would you implement conditional coverage to verify Link Disable behavior only when the link width is x8 or greater.
+# Q334. Write a FC Code to track the occurrence of Link Disable state transitions during simultaneous lane reversal.
+# Q335. Write a FC Code to cover Valid Entry Paths to Disabled State in PCIe . (from_recovery that is RECOVERY_RCVR_CFG and from_config that is CONFIG_LINKWIDTH_START)
+# Q336. Implement a covergroup to verify that ordered sets are correctly handled during transitions into and out of the Link Disable state.
 # Q337.
 # Q338.
 # Q339.
