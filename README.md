@@ -317,28 +317,65 @@
 # Q287. Write FC code to cover Partial Packet Corruption scenario resulting Framing Errors (The Error location in packet may be at header or Payload or ECRC etc)
 # Q288. Write FC code to cover 128b/130b encoding errors during Gen3→Gen4 transitions in PCIe.
 # Q289. Write FC code to cover running disparity errors in 8b/10b encoding in PCIe.
-# Q290. 
-# Q291.
-# Q292.
-# Q293.
-# Q294.
-# Q295.
-# Q296.
-# Q297.
-# Q298.
-# Q299.
-# Q300.
-# Q301.
-# Q302.
-# Q303.
-# Q304.
-# Q305.
-# Q306.
-# Q307.
-# Q308.
-# Q309.
-# Q310.
-# Q311.
-# Q312.
-
+# Q290. Write FC code to cover Basic LTSSM State Coverage in PCIe (Ensure that all possible state transitions are covered).
+# Q291. Write FC code to track time spent in each of the LTSSM state in PCIe.
+# Q292. Write FC code to cover all Valid LTSSM Transitions in PCIe.
+# Q293. Write FC code to cover entry Reasons to Recovery State (May be due to skp_error,lane_failure/lane disabled ,dllp_crc error,EQ Failure etc)
+# Q294. Write FC code to cover Configuration State Sub-States for achieving Link Width & Lane Number Negotiation in PCIe.
+# Q295. Write FC code to track failed lane negotiations that fall back to fewer lanes in PCIe.
+# Q296. Write FC code to track L0s/L1 Entry/Exit Sequences (Power State Transitions) in PCIe.
+# Q297. Write FC code to cover Hot Reset Entry/Exit scenario in PCIe. (Hot Reset Behavior check)
+# Q298. Write FC code to track TS1/TS2 sequence errors during Hot Reset , means the TS1/TS2 OS bits set for entering in to HOT Reset State in PCIe.
+# Q299. Write FC code to cover Loopback Entry/Exit scenario in PCIe . (Loopback Behavior check)
+# Q300. Write FC code to track TS1/TS2 sequence errors during Loopback , means the TS1/TS2 OS bits set for entering in to Loopback State in PCIe
+# Q301. Write FC code to cover Disabled State Entry Scenario in PCIe.
+# Q302. Write FC code to track TS1/TS2 sequence errors during Disabled State, means the TS1/TS2 OS bits set for entering in to Disabled State in PCIe.
+# Q303. Write FC code track PERST# assertion during disabled state.
+# Q304. Write FC code to cover EQ Phase Transitions in Recovery state in PCIe.
+# Q305. How would you implement conditional coverage to verify LTSSM transitions only when the link width is x8 or greater? Provide an example.
+# Q306. Write a covergroup to track the occurrence of LTSSM state transitions during link retraining. How would you ensure all retraining scenarios are covered?
+# Q307. Implement a covergroup to verify that LTSSM transitions do not impact PCIe error reporting mechanisms. Include coverage points for error types.
+# Q308. How would you implement a covergroup to verify that LTSSM transitions occur within specified timing constraints. For example : (DETECT -> POLLING and POLLING -> CONFIGURATION)
+# Q309. Write FC code to implement a covergroup to verify LTSSM transitions in designs with dynamic lane reversal.
+# Q310. How you would use functional coverage to identify potential deadlock scenarios within the LTSSM.
+# Q311. Write FC code to implement a covergroup to verify LTSSM transitions during simultaneous link width and speed changes in PCIe
+# Q312. Write FC code to implement a scenario like ,When a lane receives TS1s but the Link Control 2 register reports no lanes are enabled .(Ghost TS1 Detection in Polling)
+# Q313. Write FC code to implement Odd/even lanes report opposite polarity during lane numbering in PCIe. (Config.Lanenum Accept with Mismatched Polarity)
+# Q314. Write FC code to implement scenario like , Received FTS count doesn't match ordered set count in PCIe. (L0s Exit with Corrupted FTS)
+# Q315. Write FC code to implement scenario like , Hot Reset occurs during Config.Linkwidth.Start in PCIe. (Hot Reset with Partial Configuration)
+# Q316. Write FC code to implement scenario like , External loopback with lanes physically reversed in PCIe.(Loopback with Lane Reversal)
+# Q317. Write FC code to implement scenario like ,Entering to Disabled state with non-empty transaction layer buffer .(Disabled State with Pending TLPs)
+# Q318. Write FC code to cover scenario like , PHY skips Phase 2 EQ due to good margins in PCIe. (Equalization Phase Skipping)
+# Q319. 
+# Q320.
+# Q321.
+# Q322.
+# Q323.
+# Q324.
+# Q325.
+# Q326.
+# Q327.
+# Q328.
+# Q329.
+# Q330.
+# Q331.
+# Q332.
+# Q333.
+# Q334.
+# Q335.
+# Q336.
+# Q337.
+# Q338.
+# Q339.
+# Q340.
+# Q341.
+# Q342.
+# Q343.
+# Q344.
+# Q345.
+# Q346.
+# Q347.
+# Q348.
+# Q349.
+# Q350.
 
