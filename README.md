@@ -346,18 +346,18 @@
 # Q316. Write FC code to implement scenario like , External loopback with lanes physically reversed in PCIe.(Loopback with Lane Reversal)
 # Q317. Write FC code to implement scenario like ,Entering to Disabled state with non-empty transaction layer buffer .(Disabled State with Pending TLPs)
 # Q318. Write FC code to cover scenario like , PHY skips Phase 2 EQ due to good margins in PCIe. (Equalization Phase Skipping)
-# Q319. 
-# Q320.
-# Q321.
-# Q322.
-# Q323.
-# Q324.
-# Q325.
-# Q326.
-# Q327.
-# Q328.
-# Q329.
-# Q330.
+# Q319. Write a covergroup to track the occurrence of hot reset events. Include coverage points for different link widths and speeds.
+# Q320. How would you implement conditional coverage to verify hot reset behavior only when the link is operating at Gen3 or higher? 
+# Q321. Write a covergroup to track the occurrence of hot reset events during simultaneous lane reversal. How would you ensure all scenarios are covered?
+# Q322. Implement a covergroup to verify that hot reset does not impact PCIe error reporting mechanisms. Include coverage points for error types.
+# Q323. Write FC code to implement a covergroup to verify hot reset behavior during PCIe link initialization.
+# Q324. Write FC code to cover cases where Hot Reset is triggered during an active TLP transmission in PCIe.
+# Q325. Write FC code to track TS1/TS2 Sequence Patterns During Hot Reset state in PCIe.
+# Q326. Write FC code to cover scenario like , Hot Reset During Link Training in PCIe.
+# Q327. Write FC code to cover Hot Reset with Pending Transactions in PCIe . (Outstanding TLPs During Reset)
+# Q328. Write FC code to track unacknowledged DLLPs during Hot Reset in PCIe.
+# Q329. Write FC code to cover Hot Reset During Low-Power State like L1, L0 etc
+# Q330. Write FC code to cover Consecutive Hot Reset Operations in PCIe . {Hot Reset Stress Testing: Scenario be like , Gen1-> Gen3->Gen4->Gen5 (Link up done & achieved Max Supported speed, Then Speed Change to GEN2 , Then apply Hot Reset . Then again Speed Change to GEN2 , Then apply Hot Reset, Iterate it for 100 times )}
 # Q331.
 # Q332.
 # Q333.
